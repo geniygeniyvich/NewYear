@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер зворотного відліку до Нового року</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="countdown">
+        <h1>До нового року залишилось:</h1>
+        <div id="timer">
+            <span id="days"></span> днів
+            <span id="hours"></span> годин
+            <span id="minutes"></span> хвилин
+            <span id="seconds"></span> секунд
+        </div>
+    </div>
+    <div id="star-container"></div>
+     
+    <div id="music-player">
+        <h2>А поки ти слідкуєш за таймером, рекомендую послухати пісні:)</h2>
+        <audio id="audio" controls>
+            <source src="song1.mp3" type="audio/mpeg">
+            Ваш браузер не підтримує аудіо.
+        </audio>
+        <div id="track-list">
+            <button onclick="playTrack('song1.mp3')">Пісня 1</button>
+            <button onclick="playTrack('song2.mp3')">Пісня 2</button>
+            <button onclick="playTrack('song3.mp3')">Пісня 3</button>
+        </div>
+    </div>
+      <button type="button" class="button"><a href="https://t.me/projectgeniy">Наш телеграм канал!</a></button> 
+<h6 id="note">GeniyGeniyvich. NewYear це сайт, де ви зможете перевірити, скільки часу залишилося до нового року.</h6>
+<a id="english" href="en.html">English</a>
+
+
+
+    
+    <script src="script.js"></script> 
+
+</body>
+</html>

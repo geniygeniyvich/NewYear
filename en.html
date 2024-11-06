@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year countdown timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="countdown">
+        <h1>Until the new year:</h1>
+        <div id="timer">
+            <span id="days"></span> days
+            <span id="hours"></span> hours
+            <span id="minutes"></span> minutes
+            <span id="seconds"></span> seconds
+        </div>
+    </div>
+    <div id="star-container"></div>
+    
+    <div id="music-player">
+        <h2>And while you're watching the timer, I recommend listening to songs :)</h2>
+        <audio id="audio" controls>
+            <source src="song1.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>    
+
+        <div id="track-list">
+            <button onclick="playTrack('song1.mp3')">Song 1</button>
+            <button onclick="playTrack('song2.mp3')">Song 2</button>
+            <button onclick="playTrack('song3.mp3')">Song 3</button>
+        </div>
+    </div>    
+    <button type="button" class="button"><a href="https://t.me/projectgeniy">Our Telegram channel!</a></button> 
+<h6 id="note">GeniyGeniyvich. NewYear is a website where you can check how much time is left until the new year.</h6>
+<a id="english" href="index.html">Українська</a>
+
+    
+    <script src="enscript.js"></script> 
+
+</body>
+</html>

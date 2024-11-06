@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#countdown {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#timer span {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+/* Звезды */
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 1.5s infinite alternate;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #5cb8d7; /* Синий фон */
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.star {
+    position: absolute;
+    background: yellow; /* Желтые звезды */
+    border-radius: 50%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background: blue; /* Синий фон */
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+#star-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+a{
+    text-align: justify;
+    color: white;
+
+}
+
+.star {
+    position: absolute;
+    background: yellow; /* Желтые звезды */
+    border-radius: 50%;
+    animation: fall linear infinite;
+    
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+#music-player {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+
+#track-list button {
+    margin: 5px;
+    padding: 10px;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+#track-list button:hover {
+    background: gold;
+    
+}
+#note {
+    font-family: 'Courier New', Courier, monospace;
+}
+#english{
+    text-align: justify;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #42b7ff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    align-content: center;
+  }
+
+  
+
+  .paper-plane {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+    z-index: 10;
+  }
+
+  .paper-plane:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+    
+  
